@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes. <br> Ou simplesmente aumente ou diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <br>
+    <audio src="midia/Stroll_Alone.mp3" controls autoplay></audio>
+    <br>
+    <audio preload="metadata" altoplay controls loop>       
+        <source src="midia/Stroll_Alone.mp3" type="audio/mp3">
+        <source src="midia/Stroll_Alone.ogg" type="audio/ogg">
+        <source src="midia/Stroll_Alone.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir audio, <a href="midia/Stroll_Alone.mp3">clique aqui para baixar o arquivo.</a></p>
+    </audio> 
+        
+
+
+   
+
+
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+
+@charset;
+
+body {
+    background-color: #542773;
+}
+main {
+    width: 500px;
+    font-family: "Work Sans", Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 20px;
+    margin:auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px #4ED96D;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+
+
+}
+h1 {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif ;
+    color: #542773;
+    text-decoration: underline;
+}
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #D9923B;
+    text-decoration: underline;
+}
+p {
+    text-align: justify;
+    font-size: 1em;   
+}

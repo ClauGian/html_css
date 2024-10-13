@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        .black-ops-one-regular {
+        font-family: "Black Ops One", system-ui;
+        font-weight: 400;
+        font-style: normal;
+}
+
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            width: 700px;
+            background-color: white;
+            
+            padding: 20px;
+            
+        }
+        header {
+            background-color: rgb(107, 238, 107);
+            padding: 10px; 
+            
+        }
+        h1 {
+            font-family: "Black Ops One";
+            font-size: 40px;
+            color: blue;
+            text-align: center; 
+            text-decoration: underline;
+            box-shadow: 3px 3px 6px rgb(5, 43, 5);           
+        }
+        .h2 {
+            text-align: right;
+            color: rgb(117, 14, 14);
+        }
+        nav {
+            background-color: black;
+            padding: 5px;
+            box-shadow: 2px 3px 5px rgb(53, 0, 0);
+        }
+        nav > a {
+            font-size: small;
+            text-decoration: none;
+            color: rgb(217, 238, 183);
+            font-weight: bold;
+            margin-right: 50px;            
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: rgb(165, 223, 165);
+            padding: 10px;
+        }
+        footer {
+            background-color: black;
+        }
+        .paragrafo {
+            color: white;
+            padding: 3px;
+            text-align: center;
+            margin: 1px;
+        }
+        aside {
+            color: rgb(122, 82, 44);
+            background-color: rgb(149, 250, 149);
+            font-style: italic;            
+        }
+        h2 {
+            color: blue;
+            padding: 2px;
+        }
+        #assuntos {
+            text-align: justify;
+            background-color: rgb(159, 255, 159);
+            box-shadow: 1px 1px 2px rgb(25, 82, 25);
+            
+            
+        }
+        #notícias {
+            text-align: justify;
+            background-color: rgb(159, 255, 159);
+            box-shadow: 1px 1px 2px rgb(25, 82, 25);
+            
+        }
+        p {
+            padding: 4px;
+        }
+        
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Real Time News</h1> 
+        <h2 class="h2">Seu Portal de Notícias</h2>   
+        <nav>
+            <a href="#">Economia</a>
+            <a href="#">Política</a>
+            <a href="#">Mercado</a>
+            <a href="#">Futebol</a>
+            <a href="#">Clima</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+             <h2>Tópicos sobre economia</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro animi quis nostrum vel aperiam sapiente ab nam ea numquam obcaecati repudiandae exercitationem sunt, nihil mollitia, voluptate temporibus aliquam repellat sint.</p>
+                <aside>
+                    <p>Artigo escrito por João Carlos Martins</p>
+                </aside>
+            </article>
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus ea nulla blanditiis dolorum consequatur illo veniam. Sit ab, ipsum perspiciatis repellat laborum mollitia sunt possimus quisquam eveniet qui fugit quaerat!</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p class="paragrafo">Desenvolvido pelo Cursoemvídeo</p>
+    </footer>
+
+</body>
+</html>
