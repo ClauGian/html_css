@@ -27,6 +27,7 @@
 }
 
 
+
 body {
     background-color: var(--cor0);
     font-family: var(--font-padrao);
@@ -164,8 +165,7 @@ aside {
 aside h3 {
     background-color: #1a5c37;
     color: white;
-    padding: 10px;
-    
+    padding: 10px;    
     border-radius: 10px 10px 0px 0px;
 }
 aside p {
@@ -194,7 +194,5 @@ footer {
     margin-bottom: 20px;
     text-align: center;
 }
-
-
 
 
