@@ -9,7 +9,9 @@
         body {
             font-family: Arial, Helvetica, sans-serif;
             width: 500px;
+            padding: 50px;
         }
+        
         h1 {
             text-align: center;
             text-decoration: underline;
@@ -17,6 +19,7 @@
         table {
             width: 500px;            
             border-collapse: collapse;
+            position: relative;
         }
         caption {
             font-size: 1.5em;
@@ -25,9 +28,21 @@
             padding: 10px;
             background-color: rgb(109, 172, 109);
         }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgba(0, 0, 255, 0.726);
+            color: white;
+        }
         thead, tfoot {
             background-color: rgba(0, 0, 255, 0.726);
             color: white;
+        }
+        tbody > tr:nth-child(odd) {
+            background-color: white;
+        }
+        tbody > tr:nth-child(even) {
+            background-color: rgb(155, 140, 140);
         }
         td {
             padding: 5px;
