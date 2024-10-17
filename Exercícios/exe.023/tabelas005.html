@@ -3,9 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Exercícios de Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 500px;
+            table-layout: auto  ;
+        }
+
+        caption {
+            font-weight: bolder;
+            padding: 5px;
+            background-color: black;
+            color: white;
+            font-size: 1.5em;
+        }
+
+        th, td {
+            border: 2px solid blue;
+        }
+
+        col.cnome {
+            background: rgb(139, 139, 148);
+        }
+        
+        
+
+        
+    </style>
 </head>
 <body>
+    <h1>Exercícios de Tabelas</h1>
+
+    <table>
+        
+        <caption>Cadastro</caption>
+
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+
+
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+
+        <tr>
+            <td>Paulo Sergio</td>
+            <td>M</td>
+            <td>35</td>
+            <td>Pedreiro</td>
+        </tr>
+
+        <tr>
+            <td>Claudia</td>
+            <td>F</td>
+            <td>19</td>
+            <td>Cabelereira</td>
+        </tr>
+
+        <tr>
+            <td>Cristina</td>
+            <td>F</td>
+            <td>35</td>
+            <td>Advogada</td>
+        </tr>
+
+        <tr>
+            <td>joão Paulo</td>
+            <td>M</td>
+            <td>25</td>
+            <td>Economista</td>
+        </tr>
+
+        <tr>
+            <td>José Roberto</td>
+            <td>M</td>
+            <td>42</td>
+            <td>Bancário</td>
+        </tr>
+
+        <tr>
+            <td>Maria Aparecida</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Vendedora</td>
+        </tr>
+
+    </table>
     
+
 </body>
 </html>
