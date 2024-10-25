@@ -54,7 +54,7 @@ Extra large devices (large laptops and desktops, 1200px and up)
     
 }
 
-@media screen and (min-width: 800px) and (max-width: 1200px) { /* DESKTOP */
+@media screen and (min-width: 800px) and (max-width: 1000px) { /* DESKTOP */
     body {
         background-image: url(../imagens/back-pc.jpg);
     }
@@ -66,7 +66,7 @@ Extra large devices (large laptops and desktops, 1200px and up)
     img#tv {display: none;}    
 }
 
-@media screen and (min-width: 1200px) { /* GRANDES TELAS */
+@media screen and (min-width: 1000px) { /* GRANDES TELAS */
     body {
         background-image: url(../imagens/back-tv.jpg);
     }
