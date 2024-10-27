@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: rgb(67, 100, 67);
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    background-color: rgb(29, 75, 29);
+    color: white;
+    padding: 15px;
+}
+header > h1 {
+    border: 1px dotted black;
+}
+header > nav {
+    border: 1px dotted black;
+}
+
+main {
+    background-image: linear-gradient(to bottom, rgb(135, 179, 135), rgb(208, 226, 208));
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.521);
+}
+
+main > h2 {
+    padding: 10px 0px 10px 0px;
+}
+main > p {
+    text-align: justify;
+    text-indent: 30px;
+    padding: 10px 0px 5px 0px;
+
+
