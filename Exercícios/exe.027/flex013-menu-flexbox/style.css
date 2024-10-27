@@ -18,12 +18,41 @@ header {
     background-color: rgb(29, 75, 29);
     color: white;
     padding: 15px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
+
+
 header > h1 {
-    border: 1px dotted black;
+ /* border: 1px dotted black */
+    flex: 0 0 280px;
+    text-shadow: 2px 3px 2px black;
 }
+
 header > nav {
-    border: 1px dotted black;
+ /* border: 1px dotted black */    
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+header > nav > a {
+    background-color: rgb(13, 37, 13);
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 2px 2px 0px black;
+}
+header > nav > a:hover {
+    background-color: rgb(65, 97, 65);
+    transition: background-color 0.5s;
 }
 
 main {
@@ -32,6 +61,7 @@ main {
     padding: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.521);
+   
 }
 
 main > h2 {
