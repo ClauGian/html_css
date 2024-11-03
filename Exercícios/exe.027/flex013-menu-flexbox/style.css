@@ -18,7 +18,6 @@ header {
     background-color: rgb(29, 75, 29);
     color: white;
     padding: 15px;
-
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -27,7 +26,7 @@ header {
 
 
 header > h1 {
- /* border: 1px dotted black */
+   /* border: 1px dotted black */ 
     flex: 0 0 280px;
     text-shadow: 2px 3px 2px black;
 }
@@ -71,5 +70,6 @@ main > p {
     text-align: justify;
     text-indent: 30px;
     padding: 10px 0px 5px 0px;
+}
 
 
