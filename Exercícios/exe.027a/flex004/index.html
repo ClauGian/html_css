@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexible Box</title>
+    <style>
+        div.conteiner {
+            background-color: rgb(42, 83, 42);
+            display: flex;
+            height: 300px;
+            flex-flow: row nowrap;
+            /*justify-content: flex-start; alinha os itens no main start.*/
+            /*justify-content: flex-end;  alinha os itens no main start.*/
+            /*justify-content: center; alinha os itens no centro*/
+            /*justify-content: space-between; o primeiro item no inicio do eixo e ultimo no fim*/
+            /*justify-content: space-evenly; divide os espaços vazios antes e depois dos itens igualmente.*/
+            justify-content: space-around; /*divide o espaço do conteiner no número dos itens e coloca-os centralizados em cada espaço */
+            /*align-items: stretch; estica os itens no tamanho do cross axis É O PADRÃO*/
+            /*align-items: flex-start; alinha os itens no inicio do cross axis*/
+            /*align-items: flex-end; alinha os itens no final do cross axis*/
+            align-items: center; /*centraliza os itens com base no cross axis.*/
+        }
+
+        div.item {
+            background-color: rgb(112, 170, 112);
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+            
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </div>
+</body>
+</html>
