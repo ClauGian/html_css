@@ -3,43 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flex Box 011</title>
+    <title>flexible Box</title>
     <style>
         div.conteiner {
-            background-color: blueviolet;
+            background-color: rgb(42, 83, 42);
+
             display: flex;
             flex-flow: row nowrap;
         }
 
         div.item {
-            background-color: rgb(182, 224, 182);
+            background-color: rgb(112, 170, 112);
             border: 1px solid black;
             text-align: center;
-            padding: 10px;
-                                              
+            flex-basis: 200px;
+            padding: 30px;           
         }
-        div#cxA {
-         /*  flex-shrink: 0; 
-           flex-grow: 1;
-           flex-basis: 200px; */
 
-           flex: 1 0 200px;
+        div#cxA {
+           flex-shrink: 4;                         
+           flex-grow: 0;
         }
 
         div#cxB {
-           /*flex-shrink: 1; 
+           flex-shrink: 1;             
            flex-grow: 0;
-           flex-basis: 150px;*/
-
-           flex: 0 1 150px;
         }
 
         div#cxC {
-           /*flex-shrink: 1; 
+           flex-shrink: 8;              
            flex-grow: 0;
-           flex-basis: auto;*/
-
-           flex: 0 1 auto;
         }
 
     </style>
