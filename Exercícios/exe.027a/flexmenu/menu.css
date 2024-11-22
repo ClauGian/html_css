@@ -11,12 +11,13 @@ body {
     font-size: 1em;
     height: 100vh;
     width: 100vw;
-    background-color: rgb(137, 170, 137);
+    
+    background-image: linear-gradient(to bottom, rgb(92, 172, 92), rgb(137,170,137));
 }
 
 header {
-    background-color: rgb(47, 87, 47);
-    color: white;
+    background-color: rgb(87, 151, 87);
+    color: rgb(93, 190, 93);
     padding: 20px;
 
     display: flex;
@@ -26,28 +27,28 @@ header {
 }
 
 h1 {
-    border: 1px dotted black;
-    flex: 0 0 200px
+    flex: 0 0 200px;
+    text-shadow: 2px 2px 2px rgb(1, 29, 1);
+    font-size: 3em;
 }
 
 nav {
-    border: 1px dotted black;
-
     display: flex;
     flex-flow: row wrap;
     justify-content: end;
-
-
 }
 
 nav > a {
-    background-color: rgb(15, 31, 15);
-    color: white;
+    background-color: rgb(29, 77, 29);
+    color: rgb(89, 248, 89);
+    
     padding: 8px;
     margin: 8px;
     text-decoration: none;
     border-radius: 8px;
     text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px black;
 }
 
 nav > a:hover {
@@ -58,9 +59,16 @@ nav > a:hover {
 }
 
 main {
-    background-color: rgb(204, 226, 204);
+    background-color: rgb(179, 236, 179);
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.425);
+}
+h2 {
+    padding: 10px;
+    color:  rgb(16, 43, 16);
+}
+p {
+    text-align: justify;
 }
